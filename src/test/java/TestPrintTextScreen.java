@@ -2,19 +2,19 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TestPrintText {
+public class TestPrintTextScreen {
 
     private String text = "Hello, World!";
 
-    PrintText printText;
+    PrintTextScreen printText;
     @Before
     public void setUp() {
-        printText = new PrintText();
+        printText = new PrintTextScreen();
     }
 
     @Test
     public void printText() {
-        Assert.assertEquals("Hello, World!", printText.printText(text));
+        Assert.assertEquals("Test 1 Hello world", "Hello, World!", printText.printText(text));
     }
 
 }
