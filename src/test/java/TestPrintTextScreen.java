@@ -16,7 +16,7 @@ public class TestPrintTextScreen {
 
     @Test
     public void printText() {
-        Assert.assertEquals("Test 1. Hello world", "Hello, World1!", printText.printText(text));
+        Assert.assertEquals("Test 1. Hello world", "Hello, World!", printText.printText(text));
         Assert.assertEquals("Test 2. test", "test test test", printText.printText(text1));
         Assert.assertEquals("Test 3. new test", "new test", printText.printText(text2));
     }
