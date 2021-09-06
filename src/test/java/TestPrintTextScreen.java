@@ -15,10 +15,20 @@ public class TestPrintTextScreen {
     }
 
     @Test
-    public void printText() {
+    public void printTextHello() {
         Assert.assertEquals("Test 1. Hello world", "Hello, World!", printText.printText(text));
+    }
+
+    @Test
+    public void printTextTest() {
         Assert.assertEquals("Test 2. test", "test test test", printText.printText(text1));
+    }
+
+    @Test
+    public void printTextNewTest() {
         Assert.assertEquals("Test 3. new test", "new test", printText.printText(text2));
     }
+
+
 
 }
